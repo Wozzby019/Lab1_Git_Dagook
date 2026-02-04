@@ -1,0 +1,15 @@
+import sys
+print("System Check: PASSED")
+print(f"Running on: {sys.version}")
+(Check Help >
+About)
+
+def check_age():
+    try:
+        name = entry.get()
+        if name in ["Mac Jorge", "Mac"]:
+            result_label.config(text="I love you, Alyanna!")
+        if name in ["Alyanna Palaming"]:
+            result_label.config(text="I love you, Mac!")
+    except ValueError:
+        result_label.config(text="Invalid input. Please enter a valid name.")
